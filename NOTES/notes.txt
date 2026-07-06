@@ -1,0 +1,49 @@
+== what is psuedo code n tell the symbols used.
+give the diagram n steps for finding largest of 3 numbers.
+
+
+
+
+
+boilerplate code.
+==waht is it n a sample bioler plate code in java.
+
+
+
+
+
+data types type:
+
+1.primitive 
+- byte , shprt , char , boolean . int , long , float , double .
+
+2. non primitive ,
+string
+array
+class
+objects
+interfaces.
+
+
+
+size of data types.
+
+byte - 1 byte [-128 to 127] 256
+short-2
+char 2
+boolean - 1
+int - 4
+float -4
+long -8
+double 8
+
+
+java , c++, python is types langunage where we have to tell the data tyype,
+
+
+
+in java we have comments.
+we use // for one line
+
+/* ........*/ for more than 1 line.
+
