@@ -650,3 +650,86 @@ do {
 } while (condition);
 ```
 
+# Break and Continue
+
+## `break` Statement
+
+**Definition:** Exits the loop immediately.
+
+**Syntax**
+
+```java
+break;
+```
+
+**Example**
+
+```java
+for (int i = 1; i <= 5; i++) {
+    if (i == 3)
+        break;
+
+    System.out.println(i);
+}
+```
+
+**Output**
+
+```text
+1
+2
+```
+
+**Key Points**
+
+- Exits the loop completely.
+- Used in loops and `switch`.
+
+## `continue` Statement
+
+**Definition:** Skips the current iteration and continues with the next iteration.
+
+**Syntax**
+
+```java
+continue;
+```
+
+**Example**
+
+```java
+for (int i = 1; i <= 5; i++) {
+    if (i == 3)
+        continue;
+
+    System.out.println(i);
+}
+```
+
+**Output**
+
+```text
+1
+2
+4
+5
+```
+
+**Key Points**
+
+- Skips only the current iteration.
+- Loop continues normally.
+- Used only in loops.
+
+## Difference
+
+| `break` | `continue` |
+|---------|------------|
+| Exits the loop | Skips current iteration |
+| Stops execution | Continues with next iteration |
+| Used in loops & `switch` | Used only in loops |
+
+**Mnemonic**
+
+- **Break → Exit**
+- **Continue → Skip & Continue**
