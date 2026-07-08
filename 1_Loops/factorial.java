@@ -1,12 +1,26 @@
+import java.util.*;
 
-public class factorial {
-    public static void main(String args[]){
+public class factorial
+{
+    public static void main(String args[])
+    {
 
-        Scanner c= new Scanner(System.in);
-        System.out.print("Enter the numbre ")
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Enter the number ");
 
-        int n= sc.nextInt();
+        int n = sc.nextInt();
+        int fact = 1;
+
+        while (n > 0)
+        {
+
+            fact = fact * n;
+            n--;
+
+        }
+
+        System.out.println("Factorial is " + fact);
 
     }
-    
+
 }
